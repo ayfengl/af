@@ -187,7 +187,8 @@ main input {
   box-sizing: border-box;
   border: 1px solid var(--text-color);
   color: var(--text-color);
-  background-color: var(--background-color);
+   background-color: var(--background-color);
+ 
 }
 
 main input:hover {
@@ -247,5 +248,6 @@ main .section {
 
 /* section metadata */
 main .section.highlight {
-  background-color: var(--highlight-background-color);
+  /*background-color: var(--highlight-background-color);*/
+  background-color: white;
 }
