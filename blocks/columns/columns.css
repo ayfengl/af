@@ -1,18 +1,23 @@
 .columns > div {
   display: flex;
   flex-direction: column;
+  background-color: white;
 }
 
 .columns img {
-  width: 100%;
+  width: 60%;
 }
 
 .columns > div > div {
   order: 1;
+
 }
 
 .columns > div > .columns-img-col {
   order: 0;
+  position: relative;
+  left: 250px;
+
 }
 
 .columns > div > .columns-img-col img {
@@ -24,6 +29,7 @@
     align-items: center;
     flex-direction: unset;
     gap: 32px;
+    background-color: white;
   }
 
   .columns > div > div {

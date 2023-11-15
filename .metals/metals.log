@@ -1,0 +1,44 @@
+2023.11.07 14:23:15 INFO  Started: Metals version 1.0.1 in folders '/Users/aylim/scala/helloscala, /Users/aylim/Franklin/af' for client Visual Studio Code 1.82.2.
+Nov 07, 2023 2:23:15 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.2 by Redgate
+Nov 07, 2023 2:23:15 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Nov 07, 2023 2:23:15 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Nov 07, 2023 2:23:15 PM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:/Users/aylim/scala/helloscala/.metals/metals (H2 2.1)
+Nov 07, 2023 2:23:15 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.010s)
+Nov 07, 2023 2:23:15 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Nov 07, 2023 2:23:15 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+Nov 07, 2023 2:23:15 PM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:/Users/aylim/Franklin/af/.metals/metals (H2 2.1)
+Nov 07, 2023 2:23:15 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Nov 07, 2023 2:23:15 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.001s)
+Nov 07, 2023 2:23:15 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Nov 07, 2023 2:23:15 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Nov 07, 2023 2:23:15 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Nov 07, 2023 2:23:15 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Nov 07, 2023 2:23:15 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Nov 07, 2023 2:23:15 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Nov 07, 2023 2:23:15 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.006s)
+2023.11.07 14:23:15 INFO  time: initialize in 0.43s
+2023.11.07 14:23:17 WARN  Build server is not auto-connectable.
+2023.11.07 14:23:17 WARN  Build server is not auto-connectable.
+2023.11.07 14:23:17 WARN  no build tool detected in workspace '/Users/aylim/Franklin/af'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.11.07 14:23:17 WARN  no build target for: /Users/aylim/scala/helloscala/build.sbt
+2023.11.07 14:23:18 INFO  no build target found for /Users/aylim/scala/helloscala/build.sbt. Using presentation compiler with project's scala-library version: 3.3.0
+2023.11.07 14:23:19 INFO  time: code lens generation in 2.86s
+Nov 07, 2023 2:23:23 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
